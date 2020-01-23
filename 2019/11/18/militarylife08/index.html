@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('http://yoursite.com').hostname,
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="之前說兩個禮拜至少要更一次，事實證明我可能沒有這種毅力。人就是這樣，狀況時好時壞，比如說我寫程式，之前在軍中下班時候幾乎是天天都寫，但是最近簡直懶散到一個極致，幾乎已經要一個月沒有碰程式了，直到前兩天得知光頭葛格病逝的消息，我的心才再次燃起一點點動力，昨天開始有手寫規劃一些程式碼的部分了。 其實呢我對光頭葛格的認識並不深，程度僅止於＂尋找紅心A＂和＂葛格不要＂兩部影片而已，但是因為這次事件，我去瀏">
+<meta property="og:type" content="article">
+<meta property="og:title" content=" 軍旅手記08		">
+<meta property="og:url" content="http://yoursite.com/2019/11/18/militarylife08/index.html">
+<meta property="og:site_name" content="閒咱人等">
+<meta property="og:description" content="之前說兩個禮拜至少要更一次，事實證明我可能沒有這種毅力。人就是這樣，狀況時好時壞，比如說我寫程式，之前在軍中下班時候幾乎是天天都寫，但是最近簡直懶散到一個極致，幾乎已經要一個月沒有碰程式了，直到前兩天得知光頭葛格病逝的消息，我的心才再次燃起一點點動力，昨天開始有手寫規劃一些程式碼的部分了。 其實呢我對光頭葛格的認識並不深，程度僅止於＂尋找紅心A＂和＂葛格不要＂兩部影片而已，但是因為這次事件，我去瀏">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2019-11-18T15:00:19.000Z">
+<meta property="article:modified_time" content="2020-01-23T10:17:56.327Z">
+<meta property="article:author" content="閒咱人等">
+<meta property="article:tag" content="分享">
+<meta property="article:tag" content=" 部落格">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/2019/11/18/militarylife08/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title> 軍旅手記08		 | 閒咱人等</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">閒咱人等</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">你們 我們 他們</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>歸檔</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/18/militarylife08/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="閒咱人等">
+      <meta itemprop="description" content="分享任何事情的空間">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="閒咱人等">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+           軍旅手記08		
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-11-18 23:00:19" itemprop="dateCreated datePublished" datetime="2019-11-18T23:00:19+08:00">2019-11-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-01-23 18:17:56" itemprop="dateModified" datetime="2020-01-23T18:17:56+08:00">2020-01-23</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E9%9B%B6%E7%A2%8E%E9%9B%9C%E6%96%87/" itemprop="url" rel="index">
+                    <span itemprop="name">零碎雜文</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>之前說兩個禮拜至少要更一次，事實證明我可能沒有這種毅力。人就是這樣，狀況時好時壞，比如說我寫程式，之前在軍中下班時候幾乎是天天都寫，但是最近簡直懶散到一個極致，幾乎已經要一個月沒有碰程式了，直到前兩天得知光頭葛格病逝的消息，我的心才再次燃起一點點動力，昨天開始有手寫規劃一些程式碼的部分了。</p>
+<p>其實呢我對光頭葛格的認識並不深，程度僅止於＂尋找紅心A＂和＂葛格不要＂兩部影片而已，但是因為這次事件，我去瀏覽了他的頻道，有許多給予別人祝福的影片，令我很感慨，也知道了一些他的故事，這個人是如此的用盡力量要給予身旁的人幸福，感到惋惜的同時，更覺得自己在方方面面都可以在更努力一點，所以可明確的說是光頭葛格給了我力量！</p>
+<p>回頭檢視了一些自己懶散的原因，我想是從當兵期間寫的一個小系統到10月中左右大致上完成後開始講起。那時還在開發期間時，確實是很頻繁而努力的，那時系統大致上完成時想說給自己休息一個禮拜來緩衝一下，順便規劃想想下個系統要來寫些甚麼，有個消息來了，之前一起去步校受訓的同梯退伍時間確定了（報退），就在11月1號，心中不免替他高興，卻又替自己憂愁，到底還要在軍中待到什麼時候呢？</p>
+<p>咦？我之前有和各位說我有走報退流程嗎？哈哈自己也忘記了。這禮拜我翻翻之前的文章看看有沒有寫到好了，如果沒有我就開另外一篇提這段。</p>
+<p>總之，聽到同梯要退伍了，我整個人突然有點渙散且無所適從，程式也告一個段落，結果後面的放鬆就變成一種長時間的下班後耍廢時間了，唉，我想自己的心理素質可能還不夠強大吧，還是很容易受到周遭環境啊，人啊，等等的影響，就算是一些早就安排定下的目標，也容易因此而延宕。。。大概是這樣的原因吧。</p>
+<p>自己啊，其實也一直努力的想要成為可以不斷付出的人，並要擁有謙虛的特質，但是當我在軍中行使神對我的教導時，不斷地謙卑和忍讓讓自己吃虧，我發現只會讓某些人得寸進尺而已。所以我開始有限度的武裝自己，對於一些平常我所認為的這些＂某些人＂採取不同的交流表現，我不再一昧的忍讓、我不再讓所有的一切按照他們所想的方向發展，當我發現我對他們客氣的講話只是在讓自己難受時，我也不再一直保有一個好的臉色和態度。</p>
+<p>還是得承認自己的修行不夠，自己也無法確定這樣做是否容神所悅納…，自己以前所待的環境，相較之下簡直就是舒適圈。聖言告訴我，要把每個人視為是聖潔的，但是我發現在軍中我真的做不到這點，也必須很慚愧的和神說聲抱歉，因為軍中所發生的一切真的讓我必須對人擁有警惕，不能完全信任，否則受傷的真的只能是自己。</p>
+<p>但是在不斷地受到傷害後，發現自己的內心還是有一定的程度的強度增長。對於那些可惡的言行也擁有了一定的抵抗能力，並發展出了一套新的原則，在我要新面對一個人時，我會無所回報的先對你好，或者釋出善意。如果我不知道就算了，但是一旦讓我知道自己遭到了利用，那麼我就不會再對你有所尊重，也休想在我這裡得到任何的好處。</p>
+<p>唉，要努力的還很多啊，自己的脾氣、是非的判斷，許多方面都還不夠成熟啊。但是，還是有所成長的吧！在這期間，有了</p>
+<p>1.抗壓性的成長。</p>
+<p>2.快要退伍了，也打算把貝斯、音樂樂理這塊學好，也因此開始去上課想要來接受比較正規的訓練好為將來能夠在教會演出，更甚者是能夠成為教會的音樂老師。</p>
+<p>3.這禮拜結束後下留守，之後和同梯也打算一起去報名重機駕訓班，為將來的重機夢想先起一小步！</p>
+<p>4.期間也存了一些錢，存了一些股票，在股票、財經方面的知識也有了些概念也有做了些實際的操作，了解到股票並不是可怕的東西，而是當我們足夠了解後，是能夠幫自己創造穩定的現金流的方式之一。</p>
+<p>5.程式能力的增長，有完成了小系統並能夠實際應用。</p>
+<p>還是有滿多實際上得到成長和收穫的東西嘛！其實還有其他的零零總總，但是都還在學習中摸索稱不上有成果，像是攝影、專業一點的錄音，相關器材、空拍機、等等等有很多新的興趣想要發展，跟音樂有關，跟想經營YouTube有關，跟很多方面有關，但重點是這些事情讓我感覺很爽啊XD！！</p>
+<p>所以要更加的努力，難怪人們會說錢不是萬能，但是沒有錢可是萬萬不能啊！</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/08/26/militarylife07/" rel="prev" title=" 軍旅手記07-當兵浪費時間嗎？		">
+      <i class="fa fa-chevron-left"></i>  軍旅手記07-當兵浪費時間嗎？		
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2019/12/09/military09/" rel="next" title=" 軍旅手記09		">
+       軍旅手記09		 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">閒咱人等</p>
+  <div class="site-description" itemprop="description">分享任何事情的空間</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分類</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">標籤</span>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">閒咱人等</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
